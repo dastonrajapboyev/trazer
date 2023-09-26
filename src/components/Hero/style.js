@@ -23,13 +23,6 @@ Container.HeroInfoText = styled.div`
 `;
 Container.HeroInfoButton = styled.button`
   margin-top: 80px;
-  display: inline-flex;
-  height: 66px;
-  padding: 28px 40px 21px 40px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 40px;
 `;
 Container.HeroImg = styled.img`
   width: 579px;

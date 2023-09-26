@@ -11,7 +11,7 @@ const Hero = () => {
         <Container.HeroInfo>
           <Container.HeroInfoTitleLogo src={Logo2} alt="Logo2"/>
           <Container.HeroInfoText>Lorem ipsum dolor sit consectetur</Container.HeroInfoText>
-          <Container.HeroInfoButton>Ditch the disposals</Container.HeroInfoButton>
+          <Container.HeroInfoButton className="light-btn">Ditch the disposals</Container.HeroInfoButton>
         </Container.HeroInfo>
         <Container.HeroImg src={HeroImg} alt="hero-image"/>
       </Container.HeroContent>

@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+.light-btn {
+  display: inline-flex;
+  height: 66px;
+  padding: 28px 40px 21px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.24px;
+  text-transform: uppercase;
+}
+.dark-btn {
+  display: flex;
+  width: 265px;
+  height: 66px;
+  padding: 26px 40px 23px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.24px;
+  text-transform: uppercase;
+}
+.reverse-item {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 40px!important;
+}
